@@ -1,0 +1,55 @@
+:root {
+     --text: rgb(239, 242, 241);
+     --background: rgb(10, 13, 13);
+   
+     --primary: rgb(178, 203, 201);
+     --primary-50: rgba(178, 203, 201, 0.5);
+     --primary-25: rgba(178, 203, 201, 0.25);
+   
+     --secondary: rgb(65, 108, 105);
+     --secondary-50: rgba(65, 108, 105, 0.5);
+     --secondary-25: rgba(65, 108, 105, 0.25);
+     --secondary-15: rgba(65, 108, 105, 0.15);
+   
+     --accent: rgb(105, 174, 168);
+     --accent-50: rgba(105, 174, 168, 0.5);
+     --accent-25: rgba(105, 174, 168, 0.25);
+   
+     --third: rgb(230, 186, 110); /* A warm tan-like color */
+     --third-50: rgba(230, 186, 110, 0.5);
+   }
+
+
+.Gallery{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     width: 400px;
+     margin-left: auto;
+     margin-right: auto;
+     justify-content: center;
+     padding: 5px;
+     width: 85%;
+     gap: 4px;
+
+}
+
+.ImageBox{
+     padding: 2px;
+     overflow: clip;
+     object-fit: contain;
+     border: 2px solid var(--primary);
+     border-radius:3px ;
+     height: 200px;
+     width: 200px;
+}
+
+.ImageBox img{
+     height: 100%;
+  width: 100%;
+     
+}
+.MainContent{
+     /* overflow-y: scroll; */
+}
+

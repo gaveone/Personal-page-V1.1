@@ -1,0 +1,18 @@
+:root {
+  --text: rgb(22, 13, 8);
+  --background: rgb(251, 246, 244);
+
+  --primary: rgb(201, 120, 69);
+  --primary-50: rgba(201, 120, 69, 0.5);
+  --primary-25: rgba(201, 120, 69, 0.25);
+
+  --secondary: rgb(228, 180, 150);
+  --secondary-50: rgba(228, 180, 150, 0.5);
+  --secondary-25: rgba(228, 180, 150, 0.25);
+  --secondary-15: rgba(228, 180, 150, 0.15);
+
+  --accent: rgb(217, 141, 94);
+
+  --accent-50: rgba(217, 141, 94, 0.5);
+  --accent-24: rgba(217, 141, 94, 0.25);
+}

@@ -1,0 +1,68 @@
+:root {
+     --text: rgb(239, 242, 241);
+     --background: rgb(10, 13, 13);
+   
+     --primary: rgb(178, 203, 201);
+     --primary-50: rgba(178, 203, 201, 0.5);
+     --primary-25: rgba(178, 203, 201, 0.25);
+   
+     --secondary: rgb(65, 108, 105);
+     --secondary-50: rgba(65, 108, 105, 0.5);
+     --secondary-25: rgba(65, 108, 105, 0.25);
+     --secondary-15: rgba(65, 108, 105, 0.15);
+   
+     --accent: rgb(105, 174, 168);
+     --accent-50: rgba(105, 174, 168, 0.5);
+     --accent-25: rgba(105, 174, 168, 0.25);
+   
+     --third: rgb(230, 186, 110); /* A warm tan-like color */
+     --third-50: rgba(230, 186, 110, 0.5);
+   }
+.MainContent{
+     padding: 2px;
+     display: flex;
+     flex-direction: column;
+     gap: 8px;
+
+}
+
+.subH{
+     margin-left: 8px;
+     font-size: 1.46rem;
+}
+
+.subH span{
+     border-radius: 4px;
+     background-color: var(--secondary);
+     padding-left: 3px;
+     padding-right: 3px;
+     color: var(--background);
+}
+.details{
+     margin-left: 17px;
+     padding-right: 6px;
+     font-size: 1.26rem;
+     word-spacing: 2px;
+     text-align: justify;
+}
+.ExtraDetails{
+     display: flex;
+     flex-direction: column;
+     gap: 3px;
+}
+
+.ExtraDetails a{
+     border-radius: 4px;
+     background-color: var(--secondary);
+     padding-left: 3px;
+     padding-right: 3px;
+     color: var(--background);
+     transition: all 250ms ease-in-out;
+}
+
+.ExtraDetails a:hover{
+     background-color: var(--secondary-50);
+
+
+
+}

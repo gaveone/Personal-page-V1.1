@@ -1,0 +1,24 @@
+.mainForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.TextArea {
+  height: 100px;
+}
+
+.but {
+     width: 250px;
+}
+
+.IP{
+    min-width: 360px;
+    max-width: 450px;
+}
+.formHead{
+     margin-left: 13%;
+     font-size: 1.8rem;
+}

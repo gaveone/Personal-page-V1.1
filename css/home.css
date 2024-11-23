@@ -1,0 +1,69 @@
+:root {
+  --text: rgb(239, 242, 241);
+  --background: rgb(10, 13, 13);
+
+  --primary: rgb(178, 203, 201);
+  --primary-50: rgba(178, 203, 201, 0.5);
+  --primary-35: rgba(178, 203, 201, 0.35);
+  --primary-25: rgba(178, 203, 201, 0.25);
+
+  --secondary: rgb(65, 108, 105);
+  --secondary-50: rgba(65, 108, 105, 0.5);
+  --secondary-25: rgba(65, 108, 105, 0.25);
+  --secondary-15: rgba(65, 108, 105, 0.15);
+
+  --accent: rgb(105, 174, 168);
+  --accent-50: rgba(105, 174, 168, 0.5);
+  --accent-25: rgba(105, 174, 168, 0.25);
+  --accent-35: rgba(105, 174, 168, 0.35);
+
+  --third: rgb(230, 186, 110); /* A warm tan-like color */
+  --third-50: rgba(230, 186, 110, 0.5);
+
+  --error: rgb(203, 67, 53); /* A muted red for error messages */
+  --error-50: rgba(203, 67, 53, 0.5);
+
+  --coffee: rgb(111, 78, 55); /* A rich coffee brown */
+  --coffee-50: rgba(111, 78, 55, 0.5);
+  --coffee-25: rgba(111, 78, 55, 0.25);
+}
+
+.MainContent{
+  padding: 10px;
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  overflow-y: scroll;
+  gap: 16px; 
+}
+
+.skillBox {
+  position: relative;
+  background-color: var(--primary-25);
+  border: 1px solid var(--accent);
+  
+  height: 240px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.skillBox:hover {
+  background-color: var(--primary-35);
+}
+
+.slillHeader {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.skillBox p {
+  margin-left: 10px;
+  flex: 1;
+  text-wrap: pretty;
+  overflow-y: scroll;
+  font-size: 18px;
+  font-weight: 50;
+}
